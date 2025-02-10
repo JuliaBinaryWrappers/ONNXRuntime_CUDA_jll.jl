@@ -1,0 +1,60 @@
+[[ONNXRuntime_CUDA]]
+arch = "aarch64"
+cuda = "10.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "249e2d09a668ac05f5c8b3b2a631ba5f574b52e9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "bb4a5a2a79bfb88189d1f665d78f49ae541a5350a8d0667d62ae572015064006"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.aarch64-linux-gnu-cxx03-cuda_platform+jetson-cuda+10.2.tar.gz"
+[[ONNXRuntime_CUDA]]
+arch = "aarch64"
+cuda = "10.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e4c69c1ceb848b9a094132897d1e91f72ca39bea"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "9022cd4ee971abdd10ebf82d4e28a0baebc827a8b664a79286b5d672cebfd046"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+10.2.tar.gz"
+[[ONNXRuntime_CUDA]]
+arch = "x86_64"
+cuda = "11.3"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "10fa3bfb317c59863962c8868a5cceb91880ceab"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "da7aa69e13cd7c8ea63ac9ae98190fd85a66148a4313daff3575311bc49da1f6"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.x86_64-linux-gnu-cxx03-cuda+11.3.tar.gz"
+[[ONNXRuntime_CUDA]]
+arch = "x86_64"
+cuda = "11.3"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3e8f9e2e5715c2f1064582a724d42ab76b968ed8"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "506324a4c8b63eacb43b717ee1610dea3e490036316f9154b07dd7f70d969c46"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.x86_64-linux-gnu-cxx11-cuda+11.3.tar.gz"
+[[ONNXRuntime_CUDA]]
+arch = "x86_64"
+cuda = "11.3"
+git-tree-sha1 = "3ecfd17ce2d4e26711a6a7858c8ad5834b3ec5be"
+lazy = true
+os = "windows"
+
+    [[ONNXRuntime_CUDA.download]]
+    sha256 = "922afeaeaffa368b4853c641e1264efe63922a1f1580fd0f876aebdd6905f81e"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_CUDA_jll.jl/releases/download/ONNXRuntime_CUDA-v1.10.0+0/ONNXRuntime_CUDA.v1.10.0.x86_64-w64-mingw32-cuda+11.3.tar.gz"
